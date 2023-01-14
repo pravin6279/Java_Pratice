@@ -1,0 +1,26 @@
+package com.collectionDemo.stack;
+
+import java.util.Stack;
+
+public class StackTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Stack obj = new Stack();
+		
+		obj.push(20);
+		obj.push("Pravin");
+		obj.push("Gaikwad");
+		obj.push(100.74);
+		
+		System.out.println(obj);
+		
+	    obj.pop();
+	    System.out.println(obj);
+	    System.out.println(obj.peek());
+	    System.out.println(obj.search("Gaikwad"));
+	   
+	}
+
+}

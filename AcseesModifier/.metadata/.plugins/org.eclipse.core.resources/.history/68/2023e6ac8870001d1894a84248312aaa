@@ -1,0 +1,14 @@
+package com.accessModifier.demo;
+
+public class Demo2  extends Demo {
+	
+	public void Display() {
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		//System.out.println(d);
+	}
+
+	 
+
+}

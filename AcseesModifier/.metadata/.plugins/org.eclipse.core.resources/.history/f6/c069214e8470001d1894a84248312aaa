@@ -1,0 +1,28 @@
+package com.accessModifier.demo;
+
+public class Demo {
+
+	public int a =  54;
+	protected int b = 45;
+	int c = 32;
+	private int d = 23;
+	
+	void Math () {
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+	
+	
+	
+}
+	 class Test{
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Demo  obj = new Demo();
+		 obj.Math();
+	}
+
+	}

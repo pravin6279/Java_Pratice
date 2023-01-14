@@ -1,0 +1,20 @@
+package com.collectionDemo.stack;
+
+import java.util.ArrayList;
+
+public class StackDS1 {
+	
+	ArrayList<Integer> obj = new ArrayList<>();
+	
+	int top = -1;
+	
+	void push(int element) {
+		top = top+1;
+		obj[top]=element;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

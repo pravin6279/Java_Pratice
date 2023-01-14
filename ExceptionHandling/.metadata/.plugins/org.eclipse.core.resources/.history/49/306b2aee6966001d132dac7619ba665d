@@ -1,0 +1,9 @@
+package com.ThrowExceptionHnadling;
+
+public class YoungerException extends RuntimeException {
+	
+	YoungerException(String msg){
+		
+	}
+
+}

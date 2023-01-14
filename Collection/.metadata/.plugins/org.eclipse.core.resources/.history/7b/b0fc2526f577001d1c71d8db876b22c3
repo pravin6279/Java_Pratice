@@ -1,0 +1,40 @@
+package com.collectionDemo.linearSearch;
+
+public class LinearSearch {
+	
+	public static int search(int array[],int number) {
+		
+		int  indexfound= -1;
+		{
+		for (int i = 0;i<array.length;i++) 
+		{
+			
+			if(array[i]==number) {
+				indexfound = i;
+				break;
+			}
+			
+			}
+		return indexfound;
+		}
+	
+	}
+	 public static void main(String[] args) throws NoElementFoundException {
+		// TODO Auto-generated method stub
+		
+		int  array[] = {2,4,7,5,9,65,32,12};
+		
+		int number = 9;
+		
+		int indexFound=search(array,number);
+		if(indexFound==-1) {
+		
+			//System.out.println("Element is not present in array");
+			throw new NoElementFoundException("Element is not present in array");
+		}
+		else {
+			System.out.println("Element at :"+indexFound);
+		}
+	}
+
+}

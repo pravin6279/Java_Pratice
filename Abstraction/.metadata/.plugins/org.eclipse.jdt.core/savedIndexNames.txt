@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\Java_Pratice\Abstraction\.metadata\.plugins\org.eclipse.jdt.core
+1070184879.index
+1710072692.index

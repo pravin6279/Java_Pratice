@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AcseesModifier/Access_Modifier/src"/>
+	<classpathentry kind="src" path="Array_List/ArrayList/src"/>
+	<classpathentry kind="src" path="ExceptionHandling/ExceptionHnadling/src"/>
+	<classpathentry kind="src" path="FileHandling/FileHandling/src"/>
+	<classpathentry kind="output" path="AcseesModifier/Access_Modifier/bin"/>
+</classpath>

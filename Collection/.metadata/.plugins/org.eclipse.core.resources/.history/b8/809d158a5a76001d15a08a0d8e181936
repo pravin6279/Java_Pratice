@@ -1,0 +1,31 @@
+package com.collectionDemo.stack;
+
+public class stackDS {
+	
+	int[] arr = new int[10];
+	int top = -1;
+	
+	void push(int element) {
+	  top  = top+1;
+	  arr[top]= element;
+	}
+	void pop(int element) {
+		System.out.println("Remove  element is "+arr[top]);
+		top = top-1;
+		
+	}
+	void display() {
+		for(int i= 0;i<=top;i++) {
+			System.out.println("Elememt is :"+arr[i]);
+		}
+	}
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

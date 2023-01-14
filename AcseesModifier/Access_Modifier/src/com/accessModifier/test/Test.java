@@ -1,0 +1,24 @@
+package com.accessModifier.test;
+
+import com.accessModifier.demo.Demo;
+
+public class Test extends Demo {
+	public  void Math() {
+		System.out.println(a);
+		System.out.println(b);
+		//System.out.println(c);
+		//System.out.println(d);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Demo obj2 = new Demo();
+		//obj2.Math();
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.accessModifier.demo;
+
+public class Demo2  extends Demo {
+	
+	public void math() {
+		System.out.println("Hello World");
+	}
+
+	 
+
+}

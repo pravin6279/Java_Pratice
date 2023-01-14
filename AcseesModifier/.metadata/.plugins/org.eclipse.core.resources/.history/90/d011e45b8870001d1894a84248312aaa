@@ -1,0 +1,17 @@
+package com.accessModifier.test;
+
+import com.accessModifier.demo.Demo;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Demo obj2 = new Demo();
+		obj2.Math();
+		
+		
+	}
+
+}

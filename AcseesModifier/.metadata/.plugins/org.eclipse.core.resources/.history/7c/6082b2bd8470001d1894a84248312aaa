@@ -1,0 +1,20 @@
+package com.accessModifier.demo;
+
+public class Demo {
+
+	public int a =  54;
+	protected int b = 45;
+	int c = 32;
+	private int d = 23;
+	
+	void Math () {
+		System.out.println("public Member :"+a);
+		System.out.println("Protected Member :"+b);
+		System.out.println("Default Member :"+c);
+		System.out.println("Private Member :"+d);
+	}
+	
+	
+	
+}
+	

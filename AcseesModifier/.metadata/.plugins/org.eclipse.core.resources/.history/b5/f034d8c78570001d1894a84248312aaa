@@ -1,0 +1,40 @@
+package com.accessModifier.demo;
+
+public class Demo {
+
+	public int a =  54;
+	protected int b = 45;
+	int c = 32;
+	private int d = 23;
+	
+	public void Math () {
+		System.out.println("public Member :"+a);
+		System.out.println("Protected Member :"+b);
+		System.out.println("Default Member :"+c);
+		System.out.println("Private Member :"+d);
+	}
+	
+	protected void Math  (int i) {
+		System.out.println("public Member :"+a);
+		System.out.println("Protected Member :"+b);
+		System.out.println("Default Member :"+c);
+		System.out.println("Private Member :"+d);
+	}
+	
+	   void Math (String s ) {
+		System.out.println("public Member :"+a);
+		System.out.println("Protected Member :"+b);
+		System.out.println("Default Member :"+c);
+		System.out.println("Private Member :"+d);
+	}
+		private void Math (char c) {
+			System.out.println("public Member :"+a);
+			System.out.println("Protected Member :"+b);
+			System.out.println("Default Member :"+c);
+			System.out.println("Private Member :"+d);
+		}
+	
+	
+	
+}
+	

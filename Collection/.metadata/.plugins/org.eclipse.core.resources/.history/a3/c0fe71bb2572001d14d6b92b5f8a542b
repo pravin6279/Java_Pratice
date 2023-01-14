@@ -1,0 +1,24 @@
+package com.collectionDemo.arrayList;
+
+import java.util.ArrayList;
+
+public class Arraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     ArrayList al  = new ArrayList();
+     
+     //here we are add element
+      al.add(2);
+      al.add("Pravin");
+      al.add(23500);
+      
+      System.out.println(al);
+      
+      al.add(2,"Gaikwad" );
+      System.out.println(al);
+      al.indexOf(2);
+      //System.out.println(al);
+	}
+
+}

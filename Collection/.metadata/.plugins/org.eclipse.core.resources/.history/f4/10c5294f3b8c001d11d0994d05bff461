@@ -1,0 +1,12 @@
+package com.collectionDemo.Abstraction;
+
+public  class ClassC extends ClassA {
+
+	@Override
+	public void demo() {
+		System.out.println("My name is pravin");
+		
+	}
+	
+
+}

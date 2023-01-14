@@ -1,0 +1,7 @@
+package com.adstraction.demo;
+
+abstract class Demo {
+	
+	abstract void show();
+
+}
